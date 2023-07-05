@@ -85,21 +85,21 @@ main {
 }
 
 .app--navbar-home {
-  padding: 2% 10%;
-  width: 10%;
-  height: 10%;
-  margin: 2% 2% 3%;
+  padding: 5px;
+  width: 40px;
+  height: 40px;
+  margin-top: 15px;
   background-color: burlywood;
 }
 
 .app--navbar-bookmark {
-  width: 10%;
-  height: 10%;
-  margin: 4% 10%;
+  width: 40px;
+  height: 40px;
+  margin-top: 20px;
 }
 
 .app--navbar-profile {
-  width: 10%;
-  height: 10%;
-  margin: 4% 10%;
+  width: 40px;
+  height: 40px;
+  margin-top: 20px;
 }
