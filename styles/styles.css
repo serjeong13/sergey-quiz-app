@@ -38,18 +38,18 @@ main {
 .app--answer-button {
   background-color: aqua;
   font-size: 28px;
-  padding: 1% 1%;
-  margin: -5% 20%;
+  padding: 3px 3px;
+  margin: -20px 110px;
   font-family: fantasy;
   display: flex;
   justify-content: center;
 }
 
 .app--tag-categories {
-  top: 80%;
-  margin: 5% -5%;
-  padding: 1% 5%;
-  width: 5%;
+  top: 240px;
+  margin: 15px -15px;
+  padding: 5px 15px;
+  width: 15px;
   font-size: 16px;
   display: flex;
   position: absolute;
@@ -59,14 +59,14 @@ main {
   display: flex;
   flex-direction: row;
   align-content: flex-start;
-  margin: 10%;
+  margin: 5px;
   background-color: aquamarine;
-  padding: 3% 3%;
+  padding: 1px 1px;
 }
 
 .app--navbar-emptyspace {
   background-color: white;
-  height: 30%;
+  height: 25px;
   margin: 60px;
   display: flex;
   align-content: center;
