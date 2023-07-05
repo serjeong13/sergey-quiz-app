@@ -1,0 +1,61 @@
+main {
+  margin-top: 20%;
+  font-family: fantasy;
+}
+
+.app--title {
+  z-index: 5;
+  position: fixed;
+  top: 0;
+  width: 96%;
+  font-family: fantasy;
+  background-color: aqua;
+  text-align: center;
+  font-size: 32px;
+  border-radius: 5px;
+}
+
+.app--profile {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-content: flex-start;
+  align-items: center;
+}
+
+.app--profile-image {
+  border-radius: 50%;
+  height: 40%;
+  width: 40%;
+}
+
+.app--navbar-section {
+  width: 96%;
+  background-color: aqua;
+  position: fixed;
+  bottom: 0;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.app--navbar-home {
+  width: 10%;
+  height: 10%;
+  margin: 4% 10%;
+}
+
+.app--navbar-bookmark {
+  width: 10%;
+  height: 10%;
+  margin: 4% 10%;
+}
+
+.app--navbar-profile {
+  padding: 2% 10%;
+  width: 10%;
+  height: 10%;
+  margin: 2% 2% 3%;
+  background-color: burlywood;
+}
