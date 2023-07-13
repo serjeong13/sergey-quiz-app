@@ -1,9 +1,6 @@
-main {
-  margin-top: 20%;
-  font-family: fantasy;
-}
+@import url(global.css);
 
-.app--title {
+.header {
   z-index: 5;
   position: fixed;
   top: 0;
@@ -29,7 +26,7 @@ main {
   width: 40%;
 }
 
-.app--navbar-section {
+.footer {
   width: 96%;
   background-color: aqua;
   position: fixed;
@@ -40,19 +37,19 @@ main {
   justify-content: space-around;
 }
 
-.app--navbar-home {
+.footer-home {
   width: 40px;
   height: 40px;
   margin-top: 20px;
 }
 
-.app--navbar-bookmark {
+.footer-bookmark {
   width: 40px;
   height: 40px;
   margin-top: 20px;
 }
 
-.app--navbar-profile {
+.footer-profile {
   padding: 5px;
   width: 40px;
   height: 40px;

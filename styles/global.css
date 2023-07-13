@@ -1,0 +1,27 @@
+main {
+  margin-top: 20%;
+  font-family: fantasy;
+}
+
+.header {
+  z-index: 5;
+  position: fixed;
+  top: 0;
+  width: 96%;
+  font-family: fantasy;
+  background-color: aqua;
+  text-align: center;
+  font-size: 32px;
+  border-radius: 5px;
+}
+
+.footer {
+  width: 96%;
+  background-color: aqua;
+  position: fixed;
+  bottom: 0;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
