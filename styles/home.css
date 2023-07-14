@@ -21,6 +21,10 @@
   right: 15px;
 }
 
+.bookmark-toggle {
+  content: url("../images/bookmark_filled.png");
+}
+
 .card__answer-button {
   background-color: aqua;
   font-size: 28px;

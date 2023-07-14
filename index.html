@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="styles/home.css" />
     <title>Home Page</title>
+    <script src="/index.js" defer></script>
   </head>
   <body>
     <header class="header">Quiz App</header>
@@ -13,11 +14,16 @@
         <p>What is home according to poet Robert Frost?</p>
         <img
           class="card__bookmark-image"
+          data-js="bookmark-image"
           src="./images/bookmark.png"
           alt="non-checked"
         />
-        <button class="card__answer-button">Show Answer</button>
-        <p class="card__answer"></p>
+        <button class="card__answer-button" data-js="card-answer-button">
+          Show Answer
+        </button>
+        <p class="card__answer" data-js="card-answer">
+          The place, where you are welcomed
+        </p>
         <ul class="card__tag-categories">
           <p class="card__tag">#html</p>
           <p class="card__tag">#flebox</p>
