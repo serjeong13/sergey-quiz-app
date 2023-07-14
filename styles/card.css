@@ -73,6 +73,12 @@
   background-color: burlywood;
 }
 
+.footer-new-card {
+  width: 40px;
+  height: 40px;
+  margin-top: 20px;
+}
+
 .footer-profile {
   width: 40px;
   height: 40px;

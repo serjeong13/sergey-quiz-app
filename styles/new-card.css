@@ -1,0 +1,27 @@
+@import url(global.css);
+
+.footer-home {
+  width: 40px;
+  height: 40px;
+  margin-top: 20px;
+}
+
+.footer-bookmark {
+  width: 40px;
+  height: 40px;
+  margin-top: 20px;
+}
+
+.footer-new-card {
+  padding: 5px;
+  width: 40px;
+  height: 40px;
+  margin-top: 15px;
+  background-color: burlywood;
+}
+
+.footer-profile {
+  width: 40px;
+  height: 40px;
+  margin-top: 20px;
+}
