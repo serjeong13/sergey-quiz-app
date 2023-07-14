@@ -12,7 +12,7 @@
   border-radius: 5px;
 }
 
-.app--profile {
+.app__profile {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -20,10 +20,37 @@
   align-items: center;
 }
 
-.app--profile-image {
+.app__profile-image {
   border-radius: 50%;
-  height: 40%;
-  width: 40%;
+  height: 180px;
+  width: 140px;
+}
+
+.app__profile-counter {
+  margin: 10% 10%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.app__profile-counter {
+  background-color: aquamarine;
+  border: black solid;
+  border-radius: 10%;
+  font-size: 24px;
+  width: 140px;
+  height: 140px;
+}
+
+.app__profile-counter-image {
+  width: 40px;
+  height: 40px;
+  padding: 10px;
+}
+
+.app__profile-counter-bookmark {
+  width: 40px;
+  height: 40px;
+  padding: 10px;
 }
 
 .footer {

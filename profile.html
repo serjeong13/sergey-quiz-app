@@ -9,17 +9,17 @@
   <body>
     <header class="header">Quiz App</header>
     <main>
-      <section class="app app--profile">
+      <section class="app__profile">
         <img
-          class="app app--profile-image"
+          class="app__profile-image"
           src="images/PXL_20230524_090126652.jpg"
           alt="Crazy Horse"
         />
-        <h2 class="app app--profile-name">Crazy Horse</h2>
+        <h2 class="app__profile-name">Crazy Horse</h2>
       </section>
 
       <section>
-        <h2>About me</h2>
+        <h2 class="app__profile-about">About me</h2>
         <article>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam
           repellat sapiente vitae enim? Recusandae temporibus explicabo
@@ -28,12 +28,26 @@
         </article>
       </section>
       <section>
-        <ul>
-          <p></p>
-          <p></p>
+        <ul class="app__profile-counter">
+          <li>
+            <img
+              class="app__profile-counter-image"
+              src="images/question.png"
+              alt="image counter"
+            />
+            <p class="app__profile-counter-number">12</p>
+          </li>
+          <li>
+            <img
+              class="app__profile-counter-bookmark"
+              src="images/bookmark_filled.png"
+              alt="image counter"
+            />
+            <p class="app__profile-counter-number">4</p>
+          </li>
         </ul>
       </section>
-      <section class="app profile-settings"></section>
+      <section class="app__profile-settings"></section>
       <nav class="footer">
         <a href="index.html"
           ><img class="footer-home" src="images/home.png" alt="filled home"
