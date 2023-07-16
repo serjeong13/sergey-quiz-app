@@ -22,8 +22,8 @@
   background-color: aqua;
 }
 
-.bookmark-toggle {
-  content: url("../images/bookmark_filled.png");
+.card-container {
+  margin-bottom: 90px;
 }
 
 .footer-home {

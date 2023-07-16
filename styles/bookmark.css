@@ -1,0 +1,37 @@
+@import url(global.css);
+@import url(card.css);
+
+.footer-emptyspace {
+  background-color: white;
+  height: 25px;
+  margin: 60px;
+  display: flex;
+  align-content: center;
+  text-emphasis-color: white;
+}
+
+.footer-home {
+  width: 40px;
+  height: 40px;
+  margin-top: 20px;
+}
+
+.footer-bookmark {
+  padding: 5px;
+  width: 40px;
+  height: 40px;
+  margin-top: 15px;
+  background-color: burlywood;
+}
+
+.footer-form {
+  width: 40px;
+  height: 40px;
+  margin-top: 20px;
+}
+
+.footer-profile {
+  width: 40px;
+  height: 40px;
+  margin-top: 20px;
+}

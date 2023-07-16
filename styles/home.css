@@ -21,7 +21,7 @@
   right: 15px;
 }
 
-.bookmark-toggle {
+.hidden {
   content: url("../images/bookmark_filled.png");
 }
 

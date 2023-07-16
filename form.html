@@ -4,7 +4,9 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="styles/form.css" />
+    <link rel="stylesheet" href="styles/card.css" />
     <title>Profile Page</title>
+    <script src="/form.js" defer></script>
   </head>
   <body>
     <header class="header">Quiz App</header>
@@ -17,6 +19,7 @@
           id="formQuestion"
           cols="40"
           rows="10"
+          data-js="form-question"
         ></textarea>
 
         <label for="formAnswer" class="form-question">Your answer: </label>
@@ -26,18 +29,25 @@
           id="formAnswer"
           cols="40"
           rows="10"
+          data-js="form-answer"
         ></textarea>
 
         <label for="formTag" class="form-tag">Tag </label>
-        <input type="text" name="formTag" id="formTag" />
+        <input type="text" name="formTag" id="formTag" data-js="form-tag" />
 
         <label for="formButton"></label>
-        <button class="form-button" id="formButton" name="formButton">
+        <button
+          class="form-button"
+          id="formButton"
+          name="formButton"
+          data-js="form-button"
+        >
           Submit
         </button>
       </form>
-      <section class="app__profile-settings"></section>
-      <nav class="footer">
+
+      <section class="card-container" data-js="card-container"></section>
+      <nav class="footer" data-js="footer">
         <a href="index.html"
           ><img class="footer-home" src="images/home.png" alt="filled home"
         /></a>

@@ -14,6 +14,7 @@
 }
 
 .card__bookmark-image {
+  content: url("../images/bookmark.png");
   width: 30px;
   height: 30px;
   position: absolute;
@@ -48,39 +49,4 @@
   margin: 5px;
   background-color: aquamarine;
   padding: 1px 1px;
-}
-
-.footer-emptyspace {
-  background-color: white;
-  height: 25px;
-  margin: 60px;
-  display: flex;
-  align-content: center;
-  text-emphasis-color: white;
-}
-
-.footer-home {
-  width: 40px;
-  height: 40px;
-  margin-top: 20px;
-}
-
-.footer-bookmark {
-  padding: 5px;
-  width: 40px;
-  height: 40px;
-  margin-top: 15px;
-  background-color: burlywood;
-}
-
-.footer-form {
-  width: 40px;
-  height: 40px;
-  margin-top: 20px;
-}
-
-.footer-profile {
-  width: 40px;
-  height: 40px;
-  margin-top: 20px;
 }
