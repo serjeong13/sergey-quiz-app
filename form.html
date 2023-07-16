@@ -17,23 +17,31 @@
           type="text"
           name="formQuestion"
           id="formQuestion"
-          cols="40"
-          rows="10"
+          cols="30"
+          rows="6"
           data-js="form-question"
+          maxlength="150"
+          class="formTextArea"
         ></textarea>
-
+        <p data-js="form-question-counter" id="form-question-counter">
+          150 characters left
+        </p>
         <label for="formAnswer" class="form-question">Your answer: </label>
         <textarea
           type="text"
           name="formAnswer"
           id="formAnswer"
-          cols="40"
-          rows="10"
+          cols="30"
+          rows="6"
           data-js="form-answer"
+          maxlength="150"
+          class="formTextArea"
         ></textarea>
-
+        <p data-js="form-answer-counter" id="form-answer-counter">
+          150 characters left
+        </p>
         <label for="formTag" class="form-tag">Tag </label>
-        <input type="text" name="formTag" id="formTag" data-js="form-tag" />
+        <input type="text" name="formTag" id="form-tag" data-js="form-tag" />
 
         <label for="formButton"></label>
         <button

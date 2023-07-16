@@ -1,20 +1,34 @@
 const form = document.querySelector('[data-js="form"]');
 
 const questionInput = document.querySelector('[data-js="form-question"]');
+const questionCounter = document.querySelector(
+  '[data-js="form-question-counter"]'
+);
 
 const answerInput = document.querySelector('[data-js="form-answer"]');
+const answerCounter = document.querySelector('[data-js="form-answer-counter"]');
 
 const tagInput = document.querySelector('[data-js="form-tag"]');
 
-const footer = document.querySelector('[data-js="footer"]');
-
 form.addEventListener("submit", handleSubmit);
+
+questionInput.addEventListener("keyup", () => {
+  questionCounter.textContent = `${
+    150 - questionInput.value.length
+  } characters left`;
+});
+
+answerInput.addEventListener("keyup", () => {
+  answerCounter.textContent = `${
+    150 - answerInput.value.length
+  } characters left`;
+});
 
 function handleSubmit(event) {
   event.preventDefault();
 
-  const formData = new FormData(form);
-  const data = Object.fromEntries(formData);
+  //const formData = new FormData(form);
+  //const data = Object.fromEntries(formData);
 
   const newCard = document.createElement("section");
   newCard.className = "card__question-card";
@@ -50,6 +64,8 @@ function handleSubmit(event) {
 
   const cardContainer = document.querySelector('[data-js="card-container"]');
 
+  cardContainer.appendChild(newCard);
+
   newAnswer.style.display = "none";
 
   newButton.addEventListener("click", (event) => {
@@ -61,8 +77,6 @@ function handleSubmit(event) {
       newButton.innerHTML = "Show Answer";
     }
   });
-
-  cardContainer.appendChild(newCard);
 
   form.reset();
 }
